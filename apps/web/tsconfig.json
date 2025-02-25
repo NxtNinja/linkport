@@ -6,6 +6,7 @@
       "@/*": ["./*"],
       "@workspace/ui/*": ["../../packages/ui/src/*"]
     },
+    "noUnusedLocals": true,
     "plugins": [
       {
         "name": "next"
